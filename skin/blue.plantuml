@@ -1,0 +1,36 @@
+@startuml configuraciones
+
+skinparam actor {
+    BorderColor blue
+    BackgroundColor LightBlue
+    FontSize 14
+    FontStyle bold
+    FontColor DarkBlue
+}
+skinparam usecase {
+    BorderThickness 5
+    BorderColor LightSteelBlue
+    BackgroundColor WhiteSmoke
+    Shadowing false
+    FontName courier
+    ArrowColor DeepSkyBlue
+    LifeLineBorderColor blue
+    StereotypeFontColor Red
+}
+skinparam default {
+    FontName courier
+    FontSize 14  
+}
+skinparam rectangle{
+    BorderThickness 4
+    BorderColor DarkBlue
+}
+skinparam package {
+    StereotypeFontColor Red
+}
+skinparam linetype polyline
+skinparam linetype ortho
+hide empty members
+skinparam Handwritten false
+
+@enduml

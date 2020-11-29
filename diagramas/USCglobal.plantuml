@@ -1,14 +1,12 @@
 @startuml casos de uso1
-title 
+title
     caso de uso general (UCgeneral)
     **sistema de Farmacia**
 end title
 header
     vision global de sistema
 end header
-'!include standar.plantuml
-'///////////////////////
-'left to right direction
+!include skin/blue.plantuml
 actor A10UsuarioAnonimo
 actor A12UsuarioRegistrado #red
 rectangle "sistema" {
