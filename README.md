@@ -8,7 +8,7 @@ ___
 ### Casos de uso
 - [global](/diagramas/USCglobal.plantuml)
 
-```
+```plantuml
 @startuml casos de uso1
 title 
     caso de uso general (UCgeneral)
