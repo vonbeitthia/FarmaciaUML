@@ -1,0 +1,6 @@
+# Analisis de *sistema de Farmacia*
+## Herramientas
+- [Editor Plantuml](https://sujoyu.github.io/plantuml-previewer/)
+- [Extension firefox](https://addons.mozilla.org/en-US/firefox/addon/plantuml-visualizer/)
+- [Ayuda en linea](https://plantuml.com/sitemap-language-specification)
+## Diagramas
