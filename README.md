@@ -8,7 +8,7 @@ ___
 ### Casos de uso
 - [global](/diagramas/USCglobal.plantuml)
 
-``@startuml casos de uso1
+```@startuml casos de uso1
 title 
     caso de uso general (UCgeneral)
     **sistema de Farmacia**
