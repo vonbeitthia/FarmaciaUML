@@ -6,6 +6,6 @@
 ___
 ## Diagramas
 ### Casos de uso
-- [global](/diagramas/USCglobal.plantuml)
+- [global](/diagramas/USCglobal.txt)
 
-![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/vonbeitthia/FarmaciaUML/diagramas/USCglobal.plantuml)
+![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://github.com/vonbeitthia/FarmaciaUML/blob/main/diagramas/USCglobal.txt)
