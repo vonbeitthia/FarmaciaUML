@@ -17,7 +17,7 @@ end title
 header
     vision global de sistema
 end header
-!include /skin/config.plantuml
+!include https://github.com/vonbeitthia/FarmaciaUML/tree/main/skin
 '///////////////////////
 'left to right direction
 actor A10UsuarioAnonimo
