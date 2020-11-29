@@ -6,11 +6,11 @@ end title
 header
     vision global de sistema
 end header
-!include /skin/blue.plantuml
+!include skin/blue.plantuml
 actor A10UsuarioAnonimo
 actor A12UsuarioRegistrado #red
 rectangle "sistema" {
-    'CRUD
+    'CRUD 
     usecase USC12AgregarMedicamento
     usecase USC10BuscarMedicamento
     usecase USC14ModificarMedicamento

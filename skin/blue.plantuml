@@ -7,7 +7,7 @@ skinparam actor {
     FontSize 14
     FontStyle bold
     FontColor DarkBlue
-}
+} 
 skinparam usecase {
     BorderThickness 5
     BorderColor LightSteelBlue
