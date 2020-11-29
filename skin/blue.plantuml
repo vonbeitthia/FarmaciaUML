@@ -1,3 +1,4 @@
+``` plantuml
 @startuml configuraciones
 
 skinparam actor {
@@ -34,3 +35,4 @@ hide empty members
 skinparam Handwritten false
 
 @enduml
+```  
