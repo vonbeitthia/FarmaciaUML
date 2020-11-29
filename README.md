@@ -39,4 +39,5 @@ note right of A12UsuarioRegistrado
     autenticacion en el sistema
 end note
 
-@enduml``` 
+@enduml
+```
