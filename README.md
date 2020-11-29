@@ -17,7 +17,7 @@ end title
 header
     vision global de sistema
 end header
-!include standar.plantuml
+!include /skin/config.plantuml
 '///////////////////////
 'left to right direction
 actor A10UsuarioAnonimo
