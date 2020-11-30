@@ -1,0 +1,12 @@
+@startuml actividad buscar producto
+title
+    diagrama de actividad 
+    buscarMedicamento
+    **sistema de Farmacia**
+end title
+header
+    usuarios no registrados
+end header
+!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
+
+@enduml
