@@ -41,7 +41,6 @@ skinparam SwimlaneTitleBackgroundColor DarkBlue
 skinparam SwimlaneBorderColor DarkBlue
 skinparam SwimlaneTitleFontColor White
 skinparam SwimlaneTitleFontStyle bold
-
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members
