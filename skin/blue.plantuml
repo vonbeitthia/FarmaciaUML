@@ -35,8 +35,6 @@ skinparam note {
     BorderThickness 4
 }
 
-
-
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members
