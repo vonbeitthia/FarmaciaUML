@@ -22,17 +22,7 @@ else (falso)
     |Sistema|
     stop
 endif
-skinparam Activity {
-    BackgroundColor DarkTurquoise
-    BorderThickness 3
-    BorderColor Red
-    DiamondBackgroundColor Red
-    DiamondFontStyle italic
-    DiamondBorderColor DarkTurquoise
-    DiamondFontColor FloralWhite
-    StartColor DarkBlue
-    EndColor DarkBlue
-}
+
 
 @enduml
 ```
