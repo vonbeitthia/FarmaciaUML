@@ -11,4 +11,5 @@ ___
 
 ### Actividades
 - Actvidad **BuscarMedicamento**
+
 ![ImagenUml](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/ACbuscarMedicamento.plantuml)
