@@ -1,3 +1,4 @@
+```plantuml
 @startuml uscase1
 title
     caso de uso general (UCgeneral)
@@ -28,3 +29,4 @@ note right of A12UsuarioRegistrado
     autenticacion en el sistema
 end note
 @enduml
+``` 

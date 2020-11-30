@@ -1,3 +1,4 @@
+```
 @startuml actividad buscar producto
 title
     diagrama de actividad 
@@ -14,11 +15,9 @@ skinparam SwimlaneTitleBackgroundColor DarkBlue
 skinparam SwimlaneBorderColor DarkBlue
 skinparam SwimlaneTitleFontColor White
 skinparam SwimlaneTitleFontStyle bold
-
 |A10UsuarioAnonimo|
 start
 |Sistema|
 :buscarMedicamento;
-
-
 @enduml
+```

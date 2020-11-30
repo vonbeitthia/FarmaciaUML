@@ -34,7 +34,6 @@ skinparam note {
     BorderColor Black
     BorderThickness 4
 }
-
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members
