@@ -8,5 +8,5 @@ header
     usuarios no registrados
 end header
 !include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-
+!includesub https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/diagramas/USCglobal.plantuml!USERS
 @enduml
