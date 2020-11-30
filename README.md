@@ -8,6 +8,6 @@ ___
 ### Casos de uso
 - [global](/diagramas/USCglobal.txt)
 
-![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/diagramas/USCglobal.txt)
+![mi diagrama](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/USCglobal.plantuml)
 
 ![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt)
