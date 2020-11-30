@@ -19,8 +19,8 @@ class medicamento <<entidad>> {
 } 
 class inventario <<entidad>> {
     +id : int
-    cantidad : int
-    precio : int
+    -cantidad : int
+    -precio : int
 }
 'relaciones
 medicamento "1" -- "*" componentes
@@ -36,6 +36,25 @@ note bottom of negocio.medicamento
     clase de producto
     principal
 end note
-
-
+'-------------------
+package usuario {
+    class usuario <<entidad>> {
+        +ip : str
+    }
+    class usuarioRegistrado <<entidad>> {
+        +id : int
+        -login : str
+        -password : str
+    }
+    class usuarioAdmin {
+        admin : boolean
+    }
+    'relaciones
+    usuario <|-- usuarioRegistrado
+    usuario <|-- usuarioAdmin
+}
+note bottom of usuarioAdmin
+    La primera instancia creada
+    debera ser este tipo de usuario
+end note
 @enduml

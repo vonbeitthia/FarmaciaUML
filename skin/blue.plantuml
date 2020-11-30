@@ -47,7 +47,7 @@ skinparam Activity {
     BackgroundColor DeepSkyBlue
     BorderThickness 3
     BorderColor LightSteelBlue
-    DiamondBackgroundColor Red
+    DiamondBackgroundColor White
     DiamondFontStyle italic
     DiamondBorderColor DarkTurquoise
     DiamondFontColor FloralWhite
