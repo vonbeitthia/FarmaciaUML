@@ -1,4 +1,4 @@
-@startuml
+@startuml uscase1
 title
     caso de uso general (UCgeneral)
     **sistema de Farmacia**
