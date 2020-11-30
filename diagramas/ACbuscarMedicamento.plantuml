@@ -14,5 +14,20 @@ end header
 start
 |Sistema|
 :buscarMedicamento;
+if (encontrado) then (verdadero)
+    |A10UsuarioAnonimo|
+    :informacionMedicamento;
+    stop
+else (falso)
+    |Sistema|
+    stop
+endif
+skinparam Activity {
+    BackgroundColor LightGray-Cyan
+    BorderThickness 3
+    BorderColor Red
+    DiamondBackgroundColor Beige
+}
+
 @enduml
 ```
