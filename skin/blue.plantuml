@@ -31,7 +31,7 @@ skinparam package {
 }
 skinparam note {
     BackgroundColor DarkCyan
-    BorderColor LightGoldenRodYellow
+    BorderColor Black
     BorderThickness 4
 }
 skinparam linetype polyline
