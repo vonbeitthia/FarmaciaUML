@@ -42,7 +42,12 @@ skinparam note {
 'skinparam SwimlaneTitleFontColor Black
 'skinparam SwimlaneTitleFontStyle bold
 skinparam Swinlane {
+    BorderThickness 3
+    TitleFontSize 12
     TitleBackgroundColor LightCyan
+    BorderColor DarkBlue
+    TitleFontColor Black
+    TitleFontStyle bold
 }
 skinparam linetype polyline
 skinparam linetype ortho
