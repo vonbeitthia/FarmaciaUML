@@ -7,8 +7,8 @@ ___
 ## Diagramas
 ### Casos de uso
 - global
-
 ![ImagenUml](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/USCglobal.plantuml)
 
-
-___
+### Actividades
+- Actvidad **BuscarMedicamento**
+![ImagenUml](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/ACbuscarMedicamento.plantuml)
