@@ -8,10 +8,8 @@ header
     vision global de sistema
 end header
 !include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-!startsub USERS
 actor A10UsuarioAnonimo
 actor A12UsuarioRegistrado 
-!endsub
 rectangle "sistema" {
     'CRUD 
     usecase USC12AgregarMedicamento
