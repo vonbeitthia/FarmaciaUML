@@ -14,7 +14,6 @@ skinparam usecase {
     BackgroundColor WhiteSmoke
     Shadowing false
     FontName courier
-    ArrowColor DeepSkyBlue
     LifeLineBorderColor blue
     StereotypeFontColor Red
 }
@@ -35,12 +34,6 @@ skinparam note {
     BorderThickness 4
 }
 
-'skinparam SwimlaneBorderThickness 3
-'skinparam SwimlaneTitleFontSize 12
-'skinparam SwimlaneTitleBackgroundColor LightCyan
-'skinparam SwimlaneBorderColor DarkBlue
-'skinparam SwimlaneTitleFontColor Black
-'skinparam SwimlaneTitleFontStyle bold
 skinparam Swinlane {
     BorderThickness 3
     TitleFontSize 12
@@ -83,8 +76,10 @@ skinparam PackageBorderThickness 4
 skinparam PackageStereotypeFontColor DarkBlue
 skinparam PackageFontSize 16
 
+'flechas y lineas de conexion
+skinparam ArrowColor Black
+skinparam ArrowThickness 3
 
-skinparam ArrowHeadColor Black
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members

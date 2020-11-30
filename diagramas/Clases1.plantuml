@@ -8,15 +8,30 @@ header
     Ordenado por espacios de nombre
 end header
 !include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-
-class negocio.componentes <<entidad>> {
+namespace negocio {
+class componentes <<entidad>> {
     +id : int
     -descripcion : str
 }
+class medicamento <<entidad>> {
+    +id : int
+    -descripcion : str
+} 
+'relaciones
+componentes "1..*" <. "1" medicamento : depende de 
 
 
-note bottom
+
+} 
+
+note bottom of negocio.componentes
     componentes genericos
     de medicamentos.
     (mejora de busqueda)
 end note
+note bottom of negocio.medicamento
+    clase de producto
+    principal
+end note
+
+@enduml
