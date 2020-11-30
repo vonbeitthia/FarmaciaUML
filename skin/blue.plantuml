@@ -38,7 +38,7 @@ skinparam SwimlaneBorderThickness 3
 skinparam SwimlaneTitleFontSize 12
 skinparam SwimlaneTitleBackgroundColor LightCyan
 skinparam SwimlaneBorderColor DarkBlue
-skinparam SwimlaneTitleFontColor White
+skinparam SwimlaneTitleFontColor Black
 skinparam SwimlaneTitleFontStyle bold
 
 skinparam linetype polyline
