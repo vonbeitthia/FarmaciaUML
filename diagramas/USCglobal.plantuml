@@ -8,7 +8,7 @@ header
 end header
 !include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
 actor A10UsuarioAnonimo
-actor A12UsuarioRegistrado #red
+actor A12UsuarioRegistrado 
 rectangle "sistema" {
     'CRUD 
     usecase USC12AgregarMedicamento
