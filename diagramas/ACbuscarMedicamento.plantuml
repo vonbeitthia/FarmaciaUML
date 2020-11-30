@@ -8,7 +8,12 @@ header
     usuarios no registrados
 end header
 !include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-
+skinparam SwimlaneBorderThickness 3
+skinparam SwimlaneTitleFontSize 12
+skinparam SwimlaneTitleBackgroundColor DarkBlue
+skinparam SwimlaneBorderColor DarkBlue
+skinparam SwimlaneTitleFontColor White
+skinparam SwimlaneTitleFontStyle bold
 
 |A10UsuarioAnonimo|
 start

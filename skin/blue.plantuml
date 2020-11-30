@@ -35,12 +35,8 @@ skinparam note {
     BorderThickness 4
 }
 
-skinparam SwimlaneBorderThickness 3
-skinparam SwimlaneTitleFontSize 12
-skinparam SwimlaneTitleBackgroundColor DarkBlue
-skinparam SwimlaneBorderColor DarkBlue
-skinparam SwimlaneTitleFontColor White
-skinparam SwimlaneTitleFontStyle bold
+
+
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members
