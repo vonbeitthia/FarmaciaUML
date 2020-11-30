@@ -1,0 +1,54 @@
+```plantuml
+@startuml uscase login
+title
+    caso de uso A10UsuarioAnonimo
+    para login en el sistema
+    **sistema de Farmacia**
+end title
+header
+    proceso de login
+end header
+!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
+actor A8Usuario 
+actor A10UsuarioAnonimo
+actor A12UsuarioRegistrado
+actor A15UsuarioBloqueado
+actor A17UsuarioAdministrador <<admin>>
+
+rectangle "sistema" {
+    actor A20ControladorLogin
+    (UClogin) .[#red]l.> A20ControladorLogin : incluye
+    (UClogin) <- A10UsuarioAnonimo
+    (UCtransformarLoginData) -[#red]- A20ControladorLogin
+    (UCcompararLogin) --[#red]- A20ControladorLogin
+    (UCcambiarUsuario) -[#red]- A20ControladorLogin
+    (UCcambiarUsuario) -[#red]u-> A12UsuarioRegistrado : extiende
+    (UCcambiarUsuario) -[#red]l-> A15UsuarioBloqueado : extiende
+    (UCcambiarUsuario) -[#red]l-> A17UsuarioAdministrador : extiende
+}
+'left to right direction
+'skinparam Linetype splines
+note right of A10UsuarioAnonimo
+    el usuario ingresa a 
+    la interfaz de login
+end note
+note bottom of A20ControladorLogin
+    controlador para 
+    manejo de login
+end note
+note right of UCtransformarLoginData
+    cambia el password en
+    <color:yellow>hash</color>
+end note
+note left of A15UsuarioBloqueado
+    este usuario no
+    puede ingresar al
+    sistema a menos que
+    autorice el Admin
+end note
+note bottom of A17UsuarioAdministrador
+    usuario con privilegios
+end note
+
+@enduml
+``` 

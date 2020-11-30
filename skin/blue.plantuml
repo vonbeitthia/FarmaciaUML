@@ -8,6 +8,7 @@ skinparam actor {
     FontStyle bold
     FontColor DarkBlue
 } 
+skinparam ActorStereotypeFontColor DarkRed
 skinparam usecase {
     BorderThickness 5
     BorderColor LightSteelBlue
@@ -60,7 +61,7 @@ skinparam ClassHeaderBackgroundColor DodgerBlue
 skinparam ClassBorderColor LightSteelBlue
 skinparam ClassBorderThickness 3
 skinparam ClassFontName courier
-skinparam ClassStereotypeFontColor Red
+skinparam ClassStereotypeFontColor DarkRed
 skinparam ClassStereotypeFontName courier
 skinparam ClassStereotypeFontSize 15
 skinparam StereotypeCBorderColor Blue
