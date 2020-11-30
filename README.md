@@ -8,7 +8,7 @@ ___
 ### Casos de uso
 - global
 
-![](http://www.plantuml.com/plantuml/png/7SqzZW8n30RGVawnUu6ufne9YGegD0VuygF4KkoC70Uk3w9xtTkdmtn9t_vPKr-v_3NtSrw83EzGsTkAQnPBGxseXpI4NaDZOVV6e1jCa1Z7uqu2LigCQX1CEfxNsaT43sU7_f9jBvg_-000)
+![](http://www.plantuml.com/plantuml/png/7Sqz2W8n40RGtbFe1JAzrO9WfPNi0Rxya0na9ijaejTNh5xvjkamNz9F5zRKLoxdvdxCAv7X4ofxMt7DOcce5_MGXj1xQ2pitXXqXmaIOty-IC1AcL4DWadxwrRxYEZXwD1_iXNDFxy0)
 
 
 ___
