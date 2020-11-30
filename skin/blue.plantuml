@@ -34,7 +34,7 @@ skinparam note {
     BorderColor Black
     BorderThickness 4
 }
-skinparam swimlane {
+skinparam Swimlane {
 BorderThickness 3
 TitleFontSize 12
 TitleBackgroundColor DarkBlue
