@@ -30,7 +30,7 @@ skinparam package {
     StereotypeFontColor Red
 }
 skinparam note {
-    BackgroundColor BlueViolet
+    BackgroundColor LightSteelBlue
     BorderColor LightGoldenRodYellow
     BorderThickness 4
 }

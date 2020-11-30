@@ -23,6 +23,6 @@ A12UsuarioRegistrado -u- USC14ModificarMedicamento <<token>>
 A12UsuarioRegistrado -u- USC16EliminarMedicamento <<token>>
 note right of A12UsuarioRegistrado
     el usuario registrado requiere
-    autenticacion en el sistema
+    cambio autenticacion en el sistema
 end note
 @enduml
