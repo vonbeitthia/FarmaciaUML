@@ -7,7 +7,7 @@ header
     vision global de sistema
 end header
 !include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-scale max 1024 width
+scale max 1024 width 
 actor A10UsuarioAnonimo
 actor A12UsuarioRegistrado 
 rectangle "sistema" {
