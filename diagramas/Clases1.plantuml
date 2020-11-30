@@ -19,13 +19,12 @@ class medicamento <<entidad>> {
 } 
 class inventario <<entidad>> {
     +id : int
-
+    cantidad : int
+    precio : int
 }
 'relaciones
-componentes "1..*" <.. "1" medicamento : depende de 
-
-
-
+medicamento "1" -- "*" componentes
+medicamento "1" -r- "1" inventario
 } 
 
 note bottom of negocio.componentes
@@ -37,5 +36,6 @@ note bottom of negocio.medicamento
     clase de producto
     principal
 end note
+
 
 @enduml

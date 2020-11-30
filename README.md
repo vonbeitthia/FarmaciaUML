@@ -13,3 +13,8 @@ ___
 - Actvidad **BuscarMedicamento**
 
 ![ImagenUml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/ACbuscarMedicamento.plantuml)
+
+### Clases
+- Analisis **Global**
+
+![ImagenUml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/Clases1.plantuml)

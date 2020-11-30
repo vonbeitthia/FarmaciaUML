@@ -60,7 +60,7 @@ skinparam ClassHeaderBackgroundColor DodgerBlue
 skinparam ClassBorderColor LightSteelBlue
 skinparam ClassBorderThickness 3
 skinparam ClassFontName courier
-skinparam ClassStereotypeFontColor blue
+skinparam ClassStereotypeFontColor Red
 skinparam ClassStereotypeFontName courier
 skinparam ClassStereotypeFontSize 15
 skinparam StereotypeCBorderColor Blue
