@@ -36,7 +36,7 @@ skinparam note {
 }
 skinparam SwimlaneBorderThickness 3
 skinparam SwimlaneTitleFontSize 12
-'skinparam SwimlaneTitleBackgroundColor DarkBlue
+skinparam SwimlaneTitleBackgroundColor LightCyan
 skinparam SwimlaneBorderColor DarkBlue
 skinparam SwimlaneTitleFontColor White
 skinparam SwimlaneTitleFontStyle bold
