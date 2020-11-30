@@ -29,6 +29,11 @@ skinparam rectangle{
 skinparam package {
     StereotypeFontColor Red
 }
+skinparam note {
+    BackgroundColor BlueViolet
+    BorderColor LightGoldenRodYellow
+    BorderThickness 4
+}
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members

@@ -1,4 +1,4 @@
-@startuml casos de uso1
+@startuml
 title
     caso de uso general (UCgeneral)
     **sistema de Farmacia**
@@ -6,7 +6,7 @@ end title
 header
     vision global de sistema
 end header
-'!include ./skin/blue.plantuml
+!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
 actor A10UsuarioAnonimo
 actor A12UsuarioRegistrado #red
 rectangle "sistema" {
@@ -25,5 +25,4 @@ note right of A12UsuarioRegistrado
     el usuario registrado requiere
     autenticacion en el sistema
 end note
-
 @enduml
