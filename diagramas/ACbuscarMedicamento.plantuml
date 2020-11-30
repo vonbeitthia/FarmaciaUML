@@ -14,9 +14,18 @@ end header
 start
 |Sistema|
 :buscarMedicamento;
+note right
+    #logSistema
+    #frontend/backend
+    #VerificarIdentidad
+    #HistorialBusqueda
+end note
 if (encontrado) then (verdadero)
     |A10UsuarioAnonimo|
-    :informacionMedicamento;
+    :informacionMedicamento; 
+    note right
+        frontend
+    end note
     stop
 else (falso)
     |Sistema|

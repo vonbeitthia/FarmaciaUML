@@ -44,11 +44,11 @@ skinparam note {
 skinparam Swinlane {
     BorderThickness 3
     TitleFontSize 12
-    TitleBackgroundColor DeepSkyBlue
     BorderColor DarkBlue
     TitleFontColor Black
     TitleFontStyle bold
 }
+skinparam SwimlaneTitleBackgroundColor DeepSkyBlue
 skinparam Activity {
     BackgroundColor DeepSkyBlue
     BorderThickness 3
