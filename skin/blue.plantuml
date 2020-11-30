@@ -34,10 +34,18 @@ skinparam note {
     BorderColor Black
     BorderThickness 4
 }
+skinparam swimlane {
+BorderThickness 3
+TitleFontSize 12
+TitleBackgroundColor DarkBlue
+BorderColor DarkBlue
+TitleFontColor White
+TitleFontStyle bold
+}
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members
 skinparam Handwritten false
-
+allowmixing
 @enduml
 ```  
