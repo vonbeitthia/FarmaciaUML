@@ -8,7 +8,7 @@ ___
 ### Casos de uso
 - global
 
-![](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/diagramas/USCglobal.plantuml)
+![ImagenUml](http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/USCglobal.plantuml)
 
 
 ___
