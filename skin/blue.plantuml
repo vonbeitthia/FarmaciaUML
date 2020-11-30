@@ -60,7 +60,31 @@ skinparam Activity {
     StartColor DarkBlue
     EndColor DarkBlue
 }
-skinparam ArrowHeadColor DarkBlue
+skinparam ClassBackgroundColor LightCyan
+skinparam ClassFontColor Black
+skinparam ClassAttributeFontName courier
+skinparam ClassHeaderBackgroundColor DodgerBlue
+skinparam ClassBorderColor LightSteelBlue
+skinparam ClassBorderThickness 3
+skinparam ClassFontName courier
+skinparam ClassStereotypeFontColor DarkBlue
+skinparam ClassStereotypeFontName courier
+skinparam ClassStereotypeFontSize 15
+skinparam StereotypeCBorderColor Blue
+skinparam StereotypeCBackgroundColor White
+skinparam CircledCharacterRadius 15
+skinparam CircledCharacterFontName symbol
+skinparam CircledCharacterFontSize 24
+skinparam CircledCharacterFontStyle bold
+skinparam PackageBackgroundColor SteelBlue
+skinparam PackageBorderColor LightSteelBlue
+skinparam PackageFontName courier
+skinparam PackageBorderThickness 4
+skinparam PackageStereotypeFontColor DarkBlue
+skinparam PackageFontSize 16
+
+
+skinparam ArrowHeadColor Black
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members

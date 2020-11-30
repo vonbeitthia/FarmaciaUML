@@ -1,0 +1,22 @@
+```plantuml
+@startuml analisis de clases
+title
+    Analisis de clases 
+    **sistema de Farmacia**
+end title
+header
+    Ordenado por espacios de nombre
+end header
+!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
+
+class negocio.componentes <<entidad>> {
+    +id : int
+    -descripcion : str
+}
+
+
+note bottom
+    componentes genericos
+    de medicamentos.
+    (mejora de busqueda)
+end note
