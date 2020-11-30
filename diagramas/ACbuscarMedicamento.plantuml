@@ -23,10 +23,15 @@ else (falso)
     stop
 endif
 skinparam Activity {
-    BackgroundColor LightGray-Cyan
+    BackgroundColor DarkTurquoise
     BorderThickness 3
     BorderColor Red
-    DiamondBackgroundColor Beige
+    DiamondBackgroundColor Red
+    DiamondFontStyle italic
+    DiamondBorderColor DarkTurquoise
+    DiamondFontColor FloralWhite
+    StartColor DarkBlue
+    EndColor DarkBlue
 }
 
 @enduml
