@@ -17,8 +17,12 @@ class medicamento <<entidad>> {
     +id : int
     -descripcion : str
 } 
+class inventario <<entidad>> {
+    +id : int
+
+}
 'relaciones
-componentes "1..*" <. "1" medicamento : depende de 
+componentes "1..*" <.. "1" medicamento : depende de 
 
 
 

@@ -60,7 +60,7 @@ skinparam ClassHeaderBackgroundColor DodgerBlue
 skinparam ClassBorderColor LightSteelBlue
 skinparam ClassBorderThickness 3
 skinparam ClassFontName courier
-skinparam ClassStereotypeFontColor DarkBlue
+skinparam ClassStereotypeFontColor blue
 skinparam ClassStereotypeFontName courier
 skinparam ClassStereotypeFontSize 15
 skinparam StereotypeCBorderColor Blue
@@ -78,7 +78,7 @@ skinparam PackageFontSize 16
 
 'flechas y lineas de conexion
 skinparam ArrowColor Black
-skinparam ArrowThickness 3
+skinparam ArrowThickness 2
 
 skinparam linetype polyline
 skinparam linetype ortho
