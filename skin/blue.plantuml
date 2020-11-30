@@ -38,6 +38,6 @@ skinparam linetype polyline
 skinparam linetype ortho
 hide empty members
 skinparam Handwritten false
-allowmixing
+'allowmixing
 @enduml
 ```  
