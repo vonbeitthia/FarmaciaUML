@@ -52,7 +52,7 @@ skinparam SwimlaneTitleBackgroundColor DeepSkyBlue
 skinparam Activity {
     BackgroundColor DeepSkyBlue
     BorderThickness 3
-    BorderColor Red
+    BorderColor LightSteelBlue
     DiamondBackgroundColor Red
     DiamondFontStyle italic
     DiamondBorderColor DarkTurquoise
@@ -60,6 +60,7 @@ skinparam Activity {
     StartColor DarkBlue
     EndColor DarkBlue
 }
+skinparam ArrowHeadColor DarkBlue
 skinparam linetype polyline
 skinparam linetype ortho
 hide empty members

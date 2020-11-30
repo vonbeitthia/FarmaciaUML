@@ -15,6 +15,7 @@ start
 |Sistema|
 :buscarMedicamento;
 note right
+    <<TODO list>>
     #logSistema
     #frontend/backend
     #VerificarIdentidad
