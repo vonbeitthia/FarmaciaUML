@@ -7,8 +7,8 @@ end title
 header
     Ordenado por espacios de nombre
 end header
-'!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-!include ./skin/blue.plantuml
+!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
+'!include ./skin/blue.plantuml
 database negocio  {
 class componentes <<entidad>> {
     +id : int
