@@ -7,8 +7,9 @@ end title
 header
     Ordenado por espacios de nombre
 end header
-!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-namespace negocio {
+'!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
+!include ./skin/blue.plantuml
+database negocio  {
 class componentes <<entidad>> {
     +id : int
     -descripcion : str
@@ -27,17 +28,17 @@ medicamento "1" -- "*" componentes
 medicamento "1" -r- "1" inventario
 } 
 
-note bottom of negocio.componentes
+note bottom of componentes
     componentes genericos
     de medicamentos.
     (mejora de busqueda)
 end note
-note bottom of negocio.medicamento
+note top of medicamento
     clase de producto
     principal
 end note
 '-------------------
-package usuario {
+database usuario {
     class usuario <<entidad>> {
         +ip : str
     }
@@ -46,15 +47,64 @@ package usuario {
         -login : str
         -password : str
     }
-    class usuarioAdmin {
-        admin : boolean
+    class usuarioAdmin <<entidad>> {
+        +admin : boolean
     }
     'relaciones
     usuario <|-- usuarioRegistrado
-    usuario <|-- usuarioAdmin
+    usuarioRegistrado <|-- usuarioAdmin
+    object "__admin:usuarioAdmin__" as objAdmin {
+        +ip: getIp()
+        +id: "0001"
+        -login: "admin"
+        -password: "admin"
+        -admin : true
+    }
+    objAdmin -l-|> usuarioAdmin
 }
+
 note bottom of usuarioAdmin
-    La primera instancia creada
-    debera ser este tipo de usuario
+    El sistema debe generar
+    automaticamente a este
+    usuario
 end note
+folder log {
+    class logSistema << (F,DeepSkyBlue) >> <<archivo>> {
+        -fechaHora : date
+        -ip : str
+        -mensaje : str
+    }
+    file "/log/{nombreArchivo}.log" as arcLog <<archivo>> {
+
+    }
+    arcLog "1" <--* "1" logSistema
+} 
+note right of logSistema 
+    Registra en un archivo 
+    txt todos los eventos
+    del sistema
+end note
+folder entorno {
+    class env << (F,DeepSkyBlue) >> <<archivo>> {
+        -puertoExpress : int
+        -puertoMongo : int
+        -loginMongo : str
+        -passwordMongo : str
+        -ArchivoLog : str
+        +getProperty(prop : str)
+    }
+    file "./config/env.json" as arcEnv <<archivo>> {
+
+    }
+    arcEnv "1" *--> "1" env 
+    arcLog ..> env::ArchivoLog : depende de
+}
+note bottom of entorno
+    se especifican las variables
+    globales de configuracion
+    que utilizara el sistema
+end note
+allowmixing
+
+
 @enduml

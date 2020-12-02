@@ -54,6 +54,7 @@ skinparam Activity {
     StartColor DarkBlue
     EndColor DarkBlue
 }
+'clases
 skinparam ClassBackgroundColor LightCyan
 skinparam ClassFontColor Black
 skinparam ClassAttributeFontName courier
@@ -76,15 +77,25 @@ skinparam PackageFontName courier
 skinparam PackageBorderThickness 4
 skinparam PackageStereotypeFontColor DarkBlue
 skinparam PackageFontSize 16
-
+'clase estereotipo archivo
+skinparam ClassHeaderBackgroundColor<<archivo>> AliceBlue
+skinparam ClassStereotypeFontColor<<archivo>> MidnightBlue
+skinparam FileStereotypeFontColor<<archivo>> MidnightBlue
 'flechas y lineas de conexion
 skinparam ArrowColor Black
 skinparam ArrowThickness 2
-
 skinparam linetype polyline
 skinparam linetype ortho
+'objetos
+skinparam ObjectBackgroundColor PowderBlue
+skinparam ObjectBorderColor Black
+skinparam ObjectBorderThickness 3
+'ocultar miembros
 hide empty members
 skinparam Handwritten false
+'base de datos
+skinparam DatabaseBackgroundColor LightSkyBlue/Wheat
 'allowmixing
+
 @enduml
 ```  
