@@ -9,7 +9,6 @@ header
     proceso de login
 end header
 !include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
-actor A8Usuario 
 actor A10UsuarioAnonimo
 actor A12UsuarioRegistrado
 actor A15UsuarioBloqueado
