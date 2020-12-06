@@ -21,3 +21,5 @@ ___
 - Analisis **Global**
 
 ![ImagenUml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/Clases1.plantuml)
+- Manejo de Errores
+![ImagenUml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/vonbeitthia/FarmaciaUML/main/diagramas/error.plantuml)

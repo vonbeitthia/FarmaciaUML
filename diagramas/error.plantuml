@@ -1,0 +1,31 @@
+```plantuml
+@startuml analisis de error
+title
+    Analisis de errores
+    **sistema de Farmacia**
+end title
+header
+    Ordenado por espacios de nombre
+end header
+!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
+'!include ./skin/blue.plantuml
+package login {
+class errorAuth {
+    id : int
+    descripcion : str
+    mensaje : str
+}
+
+}
+note right 
+    **manejo de excepciones en el modulo de autenticacion**
+    
+    <#AliceBlue>|= Error |= descripcion |= mensaje |
+    <#LightSkyBlue>| 3000 | usuario no ingresado | ingrese un nombre de usuario|
+    <#AntiqueWhite>| 3005 | contraseña no ingresada | ingrese una contraseña |
+    <#LightSkyBlue>| 3010 | usuario no encontrado | usuario o contraseña no encontrada |
+    <#AntiqueWhite>| 3015 | contraseña invalida | usuario o contraseña no encontrada |
+    <#LightSkyBlue>| 3020 | acceso bloqueado | usuario bloqueado, comuniquese con el administrador |
+end note
+
+@enduml
