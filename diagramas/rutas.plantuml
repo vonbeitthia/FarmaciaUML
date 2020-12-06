@@ -1,0 +1,22 @@
+```plantuml
+@startuml analisis de rutas
+title
+    Analisis de clases (NodeJs)
+    **sistema de Farmacia**
+end title
+header
+    modulos de Node
+end header
+!include https://raw.githubusercontent.com/vonbeitthia/FarmaciaUML/main/skin/blue.plantuml
+'!include ./skin/blue.plantuml
+package rutas {
+abstract ruta <<node>> {
+    url : str
+    metodo : str
+}
+}
+note bottom 
+    manejo de rutas
+end note
+
+@enduml
